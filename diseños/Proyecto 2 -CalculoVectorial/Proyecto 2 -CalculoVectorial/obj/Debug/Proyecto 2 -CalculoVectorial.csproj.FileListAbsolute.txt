@@ -1,0 +1,25 @@
+G:\Proyecto 2 -CalculoVectorial\Proyecto 2 -CalculoVectorial\bin\Debug\Proyecto 2 -CalculoVectorial.exe.config
+G:\Proyecto 2 -CalculoVectorial\Proyecto 2 -CalculoVectorial\bin\Debug\Proyecto 2 -CalculoVectorial.exe
+G:\Proyecto 2 -CalculoVectorial\Proyecto 2 -CalculoVectorial\bin\Debug\Proyecto 2 -CalculoVectorial.pdb
+G:\Proyecto 2 -CalculoVectorial\Proyecto 2 -CalculoVectorial\obj\Debug\Proyecto 2 -CalculoVectorial.csprojAssemblyReference.cache
+G:\Proyecto 2 -CalculoVectorial\Proyecto 2 -CalculoVectorial\obj\Debug\Proyecto_2__CalculoVectorial.Form1.resources
+G:\Proyecto 2 -CalculoVectorial\Proyecto 2 -CalculoVectorial\obj\Debug\Proyecto_2__CalculoVectorial.Properties.Resources.resources
+G:\Proyecto 2 -CalculoVectorial\Proyecto 2 -CalculoVectorial\obj\Debug\Proyecto 2 -CalculoVectorial.csproj.GenerateResource.cache
+G:\Proyecto 2 -CalculoVectorial\Proyecto 2 -CalculoVectorial\obj\Debug\Proyecto 2 -CalculoVectorial.csproj.CoreCompileInputs.cache
+G:\Proyecto 2 -CalculoVectorial\Proyecto 2 -CalculoVectorial\obj\Debug\Proyecto 2 -CalculoVectorial.exe
+G:\Proyecto 2 -CalculoVectorial\Proyecto 2 -CalculoVectorial\obj\Debug\Proyecto 2 -CalculoVectorial.pdb
+C:\Users\pepec\OneDrive\Escritorio\Proyecto 2 -CalculoVectorial\Proyecto 2 -CalculoVectorial\bin\Debug\Proyecto 2 -CalculoVectorial.exe.config
+C:\Users\pepec\OneDrive\Escritorio\Proyecto 2 -CalculoVectorial\Proyecto 2 -CalculoVectorial\bin\Debug\Proyecto 2 -CalculoVectorial.exe
+C:\Users\pepec\OneDrive\Escritorio\Proyecto 2 -CalculoVectorial\Proyecto 2 -CalculoVectorial\bin\Debug\Proyecto 2 -CalculoVectorial.pdb
+C:\Users\pepec\OneDrive\Escritorio\Proyecto 2 -CalculoVectorial\Proyecto 2 -CalculoVectorial\obj\Debug\Proyecto 2 -CalculoVectorial.csprojAssemblyReference.cache
+C:\Users\pepec\OneDrive\Escritorio\Proyecto 2 -CalculoVectorial\Proyecto 2 -CalculoVectorial\obj\Debug\Proyecto_2__CalculoVectorial.Form1.resources
+C:\Users\pepec\OneDrive\Escritorio\Proyecto 2 -CalculoVectorial\Proyecto 2 -CalculoVectorial\obj\Debug\Proyecto_2__CalculoVectorial.Properties.Resources.resources
+C:\Users\pepec\OneDrive\Escritorio\Proyecto 2 -CalculoVectorial\Proyecto 2 -CalculoVectorial\obj\Debug\Proyecto 2 -CalculoVectorial.csproj.GenerateResource.cache
+C:\Users\pepec\OneDrive\Escritorio\Proyecto 2 -CalculoVectorial\Proyecto 2 -CalculoVectorial\obj\Debug\Proyecto 2 -CalculoVectorial.csproj.CoreCompileInputs.cache
+C:\Users\pepec\OneDrive\Escritorio\Proyecto 2 -CalculoVectorial\Proyecto 2 -CalculoVectorial\obj\Debug\Proyecto 2 -CalculoVectorial.exe
+C:\Users\pepec\OneDrive\Escritorio\Proyecto 2 -CalculoVectorial\Proyecto 2 -CalculoVectorial\obj\Debug\Proyecto 2 -CalculoVectorial.pdb
+C:\Users\pepec\OneDrive\Escritorio\Proyecto 2 -CalculoVectorial\Proyecto 2 -CalculoVectorial\obj\Debug\Proyecto_2__CalculoVectorial.Grafica.resources
+C:\Users\pepec\OneDrive\Escritorio\Proyecto 2 -CalculoVectorial\Proyecto 2 -CalculoVectorial\bin\Debug\Proyecto 2 -CalculoVectorial.exe.manifest
+C:\Users\pepec\OneDrive\Escritorio\Proyecto 2 -CalculoVectorial\Proyecto 2 -CalculoVectorial\bin\Debug\Proyecto 2 -CalculoVectorial.application
+C:\Users\pepec\OneDrive\Escritorio\Proyecto 2 -CalculoVectorial\Proyecto 2 -CalculoVectorial\obj\Debug\Proyecto 2 -CalculoVectorial.exe.manifest
+C:\Users\pepec\OneDrive\Escritorio\Proyecto 2 -CalculoVectorial\Proyecto 2 -CalculoVectorial\obj\Debug\Proyecto 2 -CalculoVectorial.application
