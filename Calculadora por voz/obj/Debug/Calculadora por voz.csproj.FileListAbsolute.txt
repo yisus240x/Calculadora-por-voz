@@ -1,0 +1,34 @@
+D:\codigos\Calculadora por voz\Calculadora por voz\bin\Debug\Calculadora por voz.exe.config
+D:\codigos\Calculadora por voz\Calculadora por voz\bin\Debug\Calculadora por voz.exe
+D:\codigos\Calculadora por voz\Calculadora por voz\bin\Debug\Calculadora por voz.pdb
+D:\codigos\Calculadora por voz\Calculadora por voz\obj\Debug\Calculadora por voz.csprojAssemblyReference.cache
+D:\codigos\Calculadora por voz\Calculadora por voz\obj\Debug\Calculadora_por_voz.Form1.resources
+D:\codigos\Calculadora por voz\Calculadora por voz\obj\Debug\Calculadora_por_voz.Properties.Resources.resources
+D:\codigos\Calculadora por voz\Calculadora por voz\obj\Debug\Calculadora por voz.csproj.GenerateResource.cache
+D:\codigos\Calculadora por voz\Calculadora por voz\obj\Debug\Calculadora por voz.csproj.CoreCompileInputs.cache
+D:\codigos\Calculadora por voz\Calculadora por voz\obj\Debug\Calculadora por voz.exe
+D:\codigos\Calculadora por voz\Calculadora por voz\obj\Debug\Calculadora por voz.pdb
+D:\codigos\Calculadora por voz\Calculadora por voz\bin\Debug\System.Speech.dll
+D:\codigos\Calculadora por voz\Calculadora por voz\obj\Debug\Calculadora por voz.csproj.CopyComplete
+D:\codigos\Calculadora por voz\Calculadora por voz\obj\Debug\Calculadora_por_voz.CalcNormal.resources
+D:\codigos\Calculadora por voz\Calculadora por voz\obj\Debug\Calculadora_por_voz.Form2.resources
+D:\codigos\Calculadora por voz\Calculadora por voz\obj\Debug\Calculadora_por_voz.Grafica.resources
+D:\codigos\Calculadora por voz\Calculadora por voz\obj\Debug\Calculadora_por_voz.PPP.resources
+D:\codigos\Calculadora por voz\Calculadora por voz\obj\Debug\Calculadora_por_voz.FPP.resources
+C:\Users\pepec\Desktop\Calculadora por voz\Calculadora por voz\bin\Debug\Calculadora por voz.exe.config
+C:\Users\pepec\Desktop\Calculadora por voz\Calculadora por voz\bin\Debug\Calculadora por voz.exe
+C:\Users\pepec\Desktop\Calculadora por voz\Calculadora por voz\bin\Debug\Calculadora por voz.pdb
+C:\Users\pepec\Desktop\Calculadora por voz\Calculadora por voz\bin\Debug\System.Speech.dll
+C:\Users\pepec\Desktop\Calculadora por voz\Calculadora por voz\obj\Debug\Calculadora por voz.csproj.AssemblyReference.cache
+C:\Users\pepec\Desktop\Calculadora por voz\Calculadora por voz\obj\Debug\Calculadora_por_voz.CalcNormal.resources
+C:\Users\pepec\Desktop\Calculadora por voz\Calculadora por voz\obj\Debug\Calculadora_por_voz.FPP.resources
+C:\Users\pepec\Desktop\Calculadora por voz\Calculadora por voz\obj\Debug\Calculadora_por_voz.Form1.resources
+C:\Users\pepec\Desktop\Calculadora por voz\Calculadora por voz\obj\Debug\Calculadora_por_voz.Form2.resources
+C:\Users\pepec\Desktop\Calculadora por voz\Calculadora por voz\obj\Debug\Calculadora_por_voz.Grafica.resources
+C:\Users\pepec\Desktop\Calculadora por voz\Calculadora por voz\obj\Debug\Calculadora_por_voz.PPP.resources
+C:\Users\pepec\Desktop\Calculadora por voz\Calculadora por voz\obj\Debug\Calculadora_por_voz.Properties.Resources.resources
+C:\Users\pepec\Desktop\Calculadora por voz\Calculadora por voz\obj\Debug\Calculadora por voz.csproj.GenerateResource.cache
+C:\Users\pepec\Desktop\Calculadora por voz\Calculadora por voz\obj\Debug\Calculadora por voz.csproj.CoreCompileInputs.cache
+C:\Users\pepec\Desktop\Calculadora por voz\Calculadora por voz\obj\Debug\Calculadora por voz.csproj.CopyComplete
+C:\Users\pepec\Desktop\Calculadora por voz\Calculadora por voz\obj\Debug\Calculadora por voz.exe
+C:\Users\pepec\Desktop\Calculadora por voz\Calculadora por voz\obj\Debug\Calculadora por voz.pdb

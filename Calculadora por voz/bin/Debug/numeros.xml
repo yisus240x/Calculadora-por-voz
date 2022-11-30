@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<grammar version="1.0" xml:lang="en-US"
+         xmlns="http://www.w3.org/2001/06/grammar"
+         tag-format="semantics/1.0" root="Main">
+  
+   
+  <rule id="Main">
+    <item>
+       <ruleref uri="#Numbers"/>
+    </item>
+  </rule>
+
+  <rule id="Numeros" scope="public">
+    <one-of>
+      <item> uno </item>
+      <item> dos </item>
+      <item> tres </item>
+      <item> cuatro </item>
+      <item> cinco </item>
+      <item> seis </item>
+      <item> siete </item>
+      <item> ocho </item>
+      <item> nueve </item>
+      <item> diez </item>
+      <item> once </item>
+      <item> doce </item>
+      <item> trece </item>
+      <item> catorce </item>
+      <item> quince </item>
+      <item> dieciseis </item>
+      <item> diecisiete </item>
+      <item> dieciocho </item>
+      <item> diecinueve </item>
+      <item> veinte </item>
+      <item> suma </item>
+      <item> restar </item>
+      <item> multiplicar </item>
+      <item> division </item>
+  </rule>
+</grammar>

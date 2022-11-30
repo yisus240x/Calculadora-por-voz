@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<grammar version="1.0" xml:lang="en-US"
+         xmlns="http://www.w3.org/2001/06/grammar"
+         tag-format="semantics/1.0" root="Main">
+  
+   
+  <rule id="Main">
+    <item>
+       <ruleref uri="#Numbers"/>
+    </item>
+  </rule>
+
+  <rule id="Numbers" scope="public">
+    <one-of>
+      <item> cero </item>
+      <item> uno </item>
+      <item> dos </item>
+      <item> tres </item>
+      <item> cuatro </item>
+      <item> cinco </item>
+      <item> seis </item>
+      <item> siete </item>
+      <item> ocho </item>
+      <item> nueve </item>
+      <item> diez </item>
+      <item> once </item>
+      <item> doce </item>
+      <item> trece </item>
+      <item> catorce </item>
+      <item> quince </item>
+      <item> dieciseis </item>
+      <item> diecisiete </item>
+      <item> dieciocho </item>
+      <item> diecinueve </item>
+      <item> veinte </item>
+      <item> suma </item>
+      <item> resta </item>
+      <item> multiplicar </item>
+      <item> division </item>
+      <item> salir </item>
+      <item> minimizar </item>
+      <item> normal </item>
+      <item> inicio </item>
+      <item> mas </item>
+      <item> menos </item>
+      <item> por </item>
+      <item> entre </item>
+      <item> igual </item>
+      <item> porcentaje </item>
+      <item> cuadrado </item>
+      <item> potencial </item>
+      <item> pi </item>
+      <item> cambio </item>
+      <item> raiz </item>
+      <item> porcentaje </item>
+      <item> raices </item>
+      <item> punto </item>
+      <item> basica </item>
+      <item> cruz </item>
+      <item> grafica </item>
+      <item> borrar </item>
+      <item> punto </item>
+    </one-of>
+  </rule>
+</grammar>
