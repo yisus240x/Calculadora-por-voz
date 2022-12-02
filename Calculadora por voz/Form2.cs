@@ -8,12 +8,16 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Speech.Recognition;
+using System.Speech.Synthesis;
+using System.Threading;
 
 namespace Calculadora_por_voz
 {
     public partial class Form2 : Form
     {
+
         SpeechRecognitionEngine Hablar = new SpeechRecognitionEngine();
+
 
         public Form2()
         {
@@ -161,16 +165,25 @@ namespace Calculadora_por_voz
             }
         }
 
+        private void hablar(object textBox1)
+        {
+            SpeechSynthesizer voz = new SpeechSynthesizer();
+            voz.SetOutputToDefaultAudioDevice();
+            voz.Speak(textBox1.ToString());
+        }
+
         private void BtmCuadrado_Click_1(object sender, EventArgs e)
         {
             //cuadrado
             //esto saca el cuadrado del numero escrito en la textbox
             double c;
             c = SacarA(textBox1.Text);
-            Historial.Items.Add($"{c} x^x {c} = ");
+            Historial.Items.Add($"{c}²  = ");
             c = c * c;
             Historial.Items.Add(c);
             textBox1.Text = c.ToString();
+            Thread tarea = new Thread(new ParameterizedThreadStart(hablar));
+            tarea.Start(textBox1.Text);
             CambiarBorrarCE();
 
         }
@@ -581,12 +594,18 @@ namespace Calculadora_por_voz
             Migra.Name = "Migra";
             return Migra;
         }
+
+        private void lblsigno_Click(object sender, EventArgs e)
+        {
+
+        }
+
         public void Hablar_SpeechRecognized(object sender, SpeechRecognizedEventArgs e)
         {
             foreach (RecognizedWordUnit palabra in e.Result.Words)
             {
-                //label1.Text = palabra.Text;
-                if (palabra.Text == "salir")
+                label1.Text = palabra.Text;
+                if (palabra.Text == "close")
                 {
                     Application.Exit(); ;
                 }
@@ -594,7 +613,15 @@ namespace Calculadora_por_voz
                 {
                     textBox1.Text = textBox1.Text + "0";
                 }
+                if (palabra.Text == "zero")
+                {
+                    textBox1.Text = textBox1.Text + "0";
+                }
                 if (palabra.Text == "uno")
+                {
+                    textBox1.Text = textBox1.Text + "1";
+                }
+                if (palabra.Text == "one")
                 {
                     textBox1.Text = textBox1.Text + "1";
                 }
@@ -602,7 +629,15 @@ namespace Calculadora_por_voz
                 {
                     textBox1.Text = textBox1.Text + "2";
                 }
+                if (palabra.Text == "two")
+                {
+                    textBox1.Text = textBox1.Text + "2";
+                }
                 if (palabra.Text == "tres")
+                {
+                    textBox1.Text = textBox1.Text + "3";
+                }
+                if (palabra.Text == "three")
                 {
                     textBox1.Text = textBox1.Text + "3";
                 }
@@ -610,7 +645,15 @@ namespace Calculadora_por_voz
                 {
                     textBox1.Text = textBox1.Text + "4";
                 }
+                if (palabra.Text == "four")
+                {
+                    textBox1.Text = textBox1.Text + "4";
+                }
                 if (palabra.Text == "cinco")
+                {
+                    textBox1.Text = textBox1.Text + "5";
+                }
+                if (palabra.Text == "five")
                 {
                     textBox1.Text = textBox1.Text + "5";
                 }
@@ -618,7 +661,15 @@ namespace Calculadora_por_voz
                 {
                     textBox1.Text = textBox1.Text + "6";
                 }
+                if (palabra.Text == "six")
+                {
+                    textBox1.Text = textBox1.Text + "6";
+                }
                 if (palabra.Text == "siete")
+                {
+                    textBox1.Text = textBox1.Text + "7";
+                }
+                if (palabra.Text == "seven")
                 {
                     textBox1.Text = textBox1.Text + "7";
                 }
@@ -626,7 +677,15 @@ namespace Calculadora_por_voz
                 {
                     textBox1.Text = textBox1.Text + "8";
                 }
+                if (palabra.Text == "eight")
+                {
+                    textBox1.Text = textBox1.Text + "8";
+                }
                 if (palabra.Text == "nueve")
+                {
+                    textBox1.Text = textBox1.Text + "9";
+                }
+                if (palabra.Text == "nine")
                 {
                     textBox1.Text = textBox1.Text + "9";
                 }
@@ -634,7 +693,15 @@ namespace Calculadora_por_voz
                 {
                     textBox1.Text = textBox1.Text + "10";
                 }
+                if (palabra.Text == "ten")
+                {
+                    textBox1.Text = textBox1.Text + "10";
+                }
                 if (palabra.Text == "once")
+                {
+                    textBox1.Text = textBox1.Text + "11";
+                }
+                if (palabra.Text == "eleven")
                 {
                     textBox1.Text = textBox1.Text + "11";
                 }
@@ -642,7 +709,15 @@ namespace Calculadora_por_voz
                 {
                     textBox1.Text = textBox1.Text + "12";
                 }
+                if (palabra.Text == "twelve")
+                {
+                    textBox1.Text = textBox1.Text + "12";
+                }
                 if (palabra.Text == "trece")
+                {
+                    textBox1.Text = textBox1.Text + "13";
+                }
+                if (palabra.Text == "thirteen")
                 {
                     textBox1.Text = textBox1.Text + "13";
                 }
@@ -650,7 +725,15 @@ namespace Calculadora_por_voz
                 {
                     textBox1.Text = textBox1.Text + "14";
                 }
+                if (palabra.Text == "fourteen")
+                {
+                    textBox1.Text = textBox1.Text + "14";
+                }
                 if (palabra.Text == "quince")
+                {
+                    textBox1.Text = textBox1.Text + "15";
+                }
+                if (palabra.Text == "fifteen")
                 {
                     textBox1.Text = textBox1.Text + "15";
                 }
@@ -658,7 +741,15 @@ namespace Calculadora_por_voz
                 {
                     textBox1.Text = textBox1.Text + "16";
                 }
+                if (palabra.Text == "sixteen")
+                {
+                    textBox1.Text = textBox1.Text + "16";
+                }
                 if (palabra.Text == "diecisiete")
+                {
+                    textBox1.Text = textBox1.Text + "17";
+                }
+                if (palabra.Text == "seventeen")
                 {
                     textBox1.Text = textBox1.Text + "17";
                 }
@@ -666,7 +757,15 @@ namespace Calculadora_por_voz
                 {
                     textBox1.Text = textBox1.Text + "18";
                 }
+                if (palabra.Text == "eighteen")
+                {
+                    textBox1.Text = textBox1.Text + "18";
+                }
                 if (palabra.Text == "diecinueve")
+                {
+                    textBox1.Text = textBox1.Text + "19";
+                }
+                if (palabra.Text == "nineteen")
                 {
                     textBox1.Text = textBox1.Text + "19";
                 }
@@ -674,7 +773,42 @@ namespace Calculadora_por_voz
                 {
                     textBox1.Text = textBox1.Text + "20";
                 }
+                if (palabra.Text == "twenty")
+                {
+                    textBox1.Text = textBox1.Text + "20";
+                }
+                if (palabra.Text == "limpiar")
+                {
+                    textBox1.Clear();
+                    label1.Text = "";
+                }
+                if (palabra.Text == "clear")
+                {
+                    label1.Text = "";
+                    textBox1.Clear();
+                }
                 if (palabra.Text == "mas")
+                {
+                    if (textBox1.Text != "")
+                    {
+                        if (lblsigno.Text != "")
+                        {
+                            Igualar();
+                            textBox1.Clear();
+                        }
+                        else
+                        {
+                            A = SacarA(textBox1.Text);
+
+                        }
+                        lblsigno.Text = "+";
+                        lblOperacion.Text = A.ToString();
+                        CambiarBorrarC();
+
+                    }
+
+                }
+                if (palabra.Text == "plus")
                 {
                     if (textBox1.Text != "")
                     {
@@ -717,7 +851,52 @@ namespace Calculadora_por_voz
 
                     }
                 }
+                if (palabra.Text == "minus")
+                {
+                    //Restar
+                    //deshabilita el boton de resta y habilita los otros
+                    if (textBox1.Text != "")
+                    {
+                        if (lblsigno.Text != "")
+                        {
+                            Igualar();
+                            textBox1.Clear();
+                        }
+                        else
+                        {
+                            A = SacarA(textBox1.Text);
+
+                        }
+                        lblsigno.Text = "-";
+                        lblOperacion.Text = A.ToString();
+                        CambiarBorrarC();
+
+                    }
+                }
                 if (palabra.Text == "por")
+                {
+                    //Multiplicar
+                    //deshabilita el boton de Multiplicacion y habilita los otros
+                    if (textBox1.Text != "")
+                    {
+                        if (lblsigno.Text != "")
+                        {
+                            Igualar();
+                            textBox1.Clear();
+                        }
+                        else
+                        {
+                            A = SacarA(textBox1.Text);
+
+                        }
+                        lblsigno.Text = "x";
+                        lblOperacion.Text = A.ToString();
+                        CambiarBorrarC();
+
+                    }
+
+                }
+                if (palabra.Text == "times")
                 {
                     //Multiplicar
                     //deshabilita el boton de Multiplicacion y habilita los otros
@@ -764,7 +943,43 @@ namespace Calculadora_por_voz
                     }
 
                 }
-                if (palabra.Text == "igual")
+                if (palabra.Text == "divide")
+                {
+                    //Dividir
+                    //deshabilita el boton de division y habilita los otros
+
+                    if (textBox1.Text != "")
+                    {
+                        if (lblsigno.Text != "")
+                        {
+                            Igualar();
+                            textBox1.Clear();
+                        }
+                        else
+                        {
+                            A = SacarA(textBox1.Text);
+
+                        }
+                        lblsigno.Text = "/";
+                        lblOperacion.Text = A.ToString();
+                        CambiarBorrarC();
+
+                    }
+
+                }
+                if (palabra.Text == "resultado")
+                {
+                    //dar resultado
+                    if (textBox1.Text != "")
+                    {
+                        Igualar();
+                        textBox1.Text = A.ToString();
+                        lblOperacion.Text = "";
+                        lblsigno.Text = "";
+                        CambiarBorrarCE();
+                    }
+                }
+                if (palabra.Text == "equals")
                 {
                     //dar resultado
                     if (textBox1.Text != "")
@@ -797,6 +1012,27 @@ namespace Calculadora_por_voz
 
                     }
                 }
+                if (palabra.Text == "percentage")
+                {
+                    //deshabilita el boton de porcentaje y habilita los otros
+                    if (textBox1.Text != "")
+                    {
+                        if (lblsigno.Text != "")
+                        {
+                            Igualar();
+                            textBox1.Clear();
+                        }
+                        else
+                        {
+                            A = SacarA(textBox1.Text);
+
+                        }
+                        lblOperacion.Text = A.ToString();
+                        lblsigno.Text = "%";
+                        CambiarBorrarC();
+
+                    }
+                }
                 if (palabra.Text == "cuadrado")
                 {
                     //cuadrado
@@ -809,7 +1045,41 @@ namespace Calculadora_por_voz
                     textBox1.Text = c.ToString();
                     CambiarBorrarCE();
                 }
+                if (palabra.Text == "square")
+                {
+                    //cuadrado
+                    //esto saca el cuadrado del numero escrito en la textbox
+                    double c;
+                    c = SacarA(textBox1.Text);
+                    Historial.Items.Add($"{c} x^x {c} = ");
+                    c = c * c;
+                    Historial.Items.Add(c);
+                    textBox1.Text = c.ToString();
+                    CambiarBorrarCE();
+                }
                 if (palabra.Text == "potencial")
+                {
+                    //Potencia enecima
+                    //deshabilita el boton de potencia y habilita los otros
+                    if (textBox1.Text != "")
+                    {
+                        if (lblsigno.Text != "")
+                        {
+                            Igualar();
+                            textBox1.Clear();
+                        }
+                        else
+                        {
+                            A = SacarA(textBox1.Text);
+
+                        }
+                        lblsigno.Text = "x^x";
+                        lblOperacion.Text = A.ToString();
+                        CambiarBorrarC();
+
+                    }
+                }
+                if (palabra.Text == "potential")
                 {
                     //Potencia enecima
                     //deshabilita el boton de potencia y habilita los otros
@@ -864,7 +1134,35 @@ namespace Calculadora_por_voz
                         CambiarBorrarC();
                     }
                 }
-                if (palabra.Text == "raiz")
+                if (palabra.Text == "change")
+                {
+                    // cambiar el valor de la textbox a positivo o negativo
+                    if (textBox1.Text != "0" && textBox1.Text != "")
+                    {
+                        double C = 0;
+                        C = System.Double.Parse(textBox1.Text);
+                        if (C > 0)
+                            textBox1.Text = "-" + textBox1.Text;
+                        else if (C < 0)
+                        {
+                            C = C * -1;
+                            textBox1.Text = C.ToString();
+                        }
+                        CambiarBorrarC();
+                    }
+                }
+                if (palabra.Text == "square root")
+                {
+                    // Raiz cuadrada
+                    //saca la raiz cuadrada del numero de la textbox
+                    double c = SacarA(textBox1.Text);
+                    Historial.Items.Add($"{c} x^x {c} = ");
+                    c = Math.Sqrt(c);
+                    Historial.Items.Add(c);
+                    textBox1.Text = c.ToString();
+                    CambiarBorrarCE();
+                }
+                if (palabra.Text == "root")
                 {
                     // Raiz cuadrada
                     //saca la raiz cuadrada del numero de la textbox
@@ -918,7 +1216,46 @@ namespace Calculadora_por_voz
 
                     }
                 }
+                if (palabra.Text == "root")
+                {
+                    //Raiz enecima
+                    //deshabilita el boton de Raiz enecima y habilita los otros
+                    if (textBox1.Text != "")
+                    {
+                        if (lblsigno.Text != "")
+                        {
+                            Igualar();
+                            textBox1.Clear();
+                        }
+                        else
+                        {
+                            A = SacarA(textBox1.Text);
+
+                        }
+                        lblsigno.Text = "x√";
+                        lblOperacion.Text = A.ToString();
+                        CambiarBorrarC();
+
+                    }
+                }
                 if (palabra.Text == "punto")
+                {
+                    //escribir punto
+                    if (textBox1.Text.Contains(".") == false)
+                    {
+                        if (textBox1.Text == "")
+                        {
+                            textBox1.Text = textBox1.Text + "0.";
+                            CambiarBorrarC();
+                        }
+                        else
+                        {
+                            textBox1.Text = textBox1.Text + ".";
+                            CambiarBorrarC();
+                        }
+                    }
+                }
+                if (palabra.Text == "dot")
                 {
                     //escribir punto
                     if (textBox1.Text.Contains(".") == false)

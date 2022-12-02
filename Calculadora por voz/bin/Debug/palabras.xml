@@ -13,16 +13,35 @@
   <rule id="Numbers" scope="public">
     <one-of>
       <item> cero </item>
+	  <item>zero</item>
       <item> uno </item>
+	  	  <item>one</item>
       <item> dos </item>
+	  	  <item>two</item>
+
       <item> tres </item>
+	        <item> three </item>
+
       <item> cuatro </item>
+	        <item> four </item>
       <item> cinco </item>
+	        <item> five </item>
+
       <item> seis </item>
+	        <item> six </item>
+
       <item> siete </item>
+	        <item> seven </item>
+
       <item> ocho </item>
+	        <item> eight </item>
+
       <item> nueve </item>
+	        <item> nine </item>
+
       <item> diez </item>
+	        <item> ten </item>
+
       <item> once </item>
       <item> doce </item>
       <item> trece </item>
@@ -59,7 +78,51 @@
       <item> cruz </item>
       <item> grafica </item>
       <item> borrar </item>
+	  <item> limpiar </item>
       <item> punto </item>
+	        <item> ten </item>
+				      <item> clear </item>
+	  <item> resultado </item>
+	  <item> equals </item>
+	  	  <item> plus </item>
+		  	  <item> minus </item>
+			  	  <item> times </item>
+				  	  <item> divide </item>
+	<item>eleven</item>
+		<item>twelve</item>
+			<item>thirteen</item>
+				<item>fourteen</item>
+					<item>fifteen</item>
+						<item>sixteen</item>
+							<item>seventeen</item>
+								<item>eleven</item>
+	<item>eighteen</item>
+		<item>nineteen</item>
+			<item>twenty</item>
+				<item>percentage</item>
+					<item>square</item>
+						<item>potential</item>
+							<item>change</item>
+								<item>square root</item>
+									<item>root</item>
+										<item>dot</item>
+										<item>close</item>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     </one-of>
   </rule>
 </grammar>

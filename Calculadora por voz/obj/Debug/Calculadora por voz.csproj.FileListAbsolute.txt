@@ -32,3 +32,20 @@ C:\Users\pepec\Desktop\Calculadora por voz\Calculadora por voz\obj\Debug\Calcula
 C:\Users\pepec\Desktop\Calculadora por voz\Calculadora por voz\obj\Debug\Calculadora por voz.csproj.CopyComplete
 C:\Users\pepec\Desktop\Calculadora por voz\Calculadora por voz\obj\Debug\Calculadora por voz.exe
 C:\Users\pepec\Desktop\Calculadora por voz\Calculadora por voz\obj\Debug\Calculadora por voz.pdb
+D:\New folder\Calculadora-por-voz\Calculadora por voz\bin\Debug\Calculadora por voz.exe.config
+D:\New folder\Calculadora-por-voz\Calculadora por voz\bin\Debug\Calculadora por voz.exe
+D:\New folder\Calculadora-por-voz\Calculadora por voz\bin\Debug\Calculadora por voz.pdb
+D:\New folder\Calculadora-por-voz\Calculadora por voz\bin\Debug\System.Speech.dll
+D:\New folder\Calculadora-por-voz\Calculadora por voz\obj\Debug\Calculadora por voz.csproj.AssemblyReference.cache
+D:\New folder\Calculadora-por-voz\Calculadora por voz\obj\Debug\Calculadora_por_voz.CalcNormal.resources
+D:\New folder\Calculadora-por-voz\Calculadora por voz\obj\Debug\Calculadora_por_voz.FPP.resources
+D:\New folder\Calculadora-por-voz\Calculadora por voz\obj\Debug\Calculadora_por_voz.Form1.resources
+D:\New folder\Calculadora-por-voz\Calculadora por voz\obj\Debug\Calculadora_por_voz.Form2.resources
+D:\New folder\Calculadora-por-voz\Calculadora por voz\obj\Debug\Calculadora_por_voz.Grafica.resources
+D:\New folder\Calculadora-por-voz\Calculadora por voz\obj\Debug\Calculadora_por_voz.PPP.resources
+D:\New folder\Calculadora-por-voz\Calculadora por voz\obj\Debug\Calculadora_por_voz.Properties.Resources.resources
+D:\New folder\Calculadora-por-voz\Calculadora por voz\obj\Debug\Calculadora por voz.csproj.GenerateResource.cache
+D:\New folder\Calculadora-por-voz\Calculadora por voz\obj\Debug\Calculadora por voz.csproj.CoreCompileInputs.cache
+D:\New folder\Calculadora-por-voz\Calculadora por voz\obj\Debug\Calculadora por voz.csproj.CopyComplete
+D:\New folder\Calculadora-por-voz\Calculadora por voz\obj\Debug\Calculadora por voz.exe
+D:\New folder\Calculadora-por-voz\Calculadora por voz\obj\Debug\Calculadora por voz.pdb

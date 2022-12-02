@@ -45,8 +45,8 @@ namespace Calculadora_por_voz
         public void Hablar_SpeechRecognized(object sender, SpeechRecognizedEventArgs e)
         {
             foreach (RecognizedWordUnit palabra in e.Result.Words) {
-                label1.Text = palabra.Text;
-                if (palabra.Text == "salir") {
+                //label1.Text = palabra.Text;
+                if (palabra.Text == "close") {
                     Application.Exit(); ;
                 }
                 if (palabra.Text == "minimizar") {
@@ -62,28 +62,10 @@ namespace Calculadora_por_voz
                     openformhijo(new Form2());
                     label1.Visible = false;
                 }
-                if (palabra.Text == "punto")
-                {
-                    openformhijo(new PPP());
-                    label1.Visible = false;
-                }
             }
         }
 
-        private void Max_Click(object sender, EventArgs e)
-        {
-            this.WindowState = FormWindowState.Maximized;
-            max.Visible = false;
-            min.Visible = true;
-        }
 
-        private void Min_Click(object sender, EventArgs e)
-        {
-            this.WindowState = FormWindowState.Normal;
-            min.Visible = false;
-            max.Visible = true;
-
-        }
 
         private void Cerrar_Click(object sender, EventArgs e)
         {
@@ -129,6 +111,16 @@ namespace Calculadora_por_voz
         private void FPP_Click(object sender, EventArgs e)
         {
             openformhijo(new FPP());
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void pnlSeleccion_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

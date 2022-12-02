@@ -150,5 +150,20 @@
   <ItemGroup>
     <None Include="Resources\d.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Circle_Davys-Grey_Solid.svg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Circle_Davys-Grey_Solid.svg1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\circulo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1211%402x.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
